@@ -10,6 +10,7 @@ export default function PostComponent({ post }) {
   }
   return (
     <div>
+      {/* eslint-disable-next-line */}
       <Markdown children={post.content} />
     </div>
   );
